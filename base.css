@@ -1,0 +1,47 @@
+.navbar{
+	align-items: flex-start;
+}
+.navbar-brand{
+	max-width: 170px;
+}
+
+.navbar-nav .nav-link{
+	background-color: #C4C4C4;
+	color: #393939 !important;
+	padding: 15px 20px !important;
+	margin-right: 5px;
+}
+@media(max-width: 992px){
+	.navbar{
+		align-items: center !important;
+	}
+	.navbar-brand{
+		max-width: 120px;
+	}
+}
+
+
+/* HERO */
+.hero ol li{
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	opacity: 1;
+	border: 3px solid #41ABD7;
+	background: transparent;
+}
+.hero ol li.active{
+	background: rgba(147, 185, 58, .65);
+}
+
+
+/* Contact */
+.CNT h2{
+	border: 5px solid #41ABD7;
+}
+
+
+/* NEWS */
+.NWZ h2{
+	border: 5px solid #93B93A;
+}
