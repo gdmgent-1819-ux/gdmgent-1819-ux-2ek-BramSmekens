@@ -50,5 +50,23 @@
     width: 150px;
     height: 30px;
     display: flex;
-    
+}
+
+.navbar-nav .nav-link{
+	background-color: #93B93A;
+    color: #D4D4D4;
+    border: #41ABD7 4px solid;
+	padding: 15px 20px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.nav-item{
+    list-style: none;
+}
+
+.navbar-toggler{
+    height: 40px;
+    width: 112px;
+    margin-left: 40px;
 }
